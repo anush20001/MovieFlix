@@ -25,5 +25,8 @@
                 margin-bottom: 20px;
             }
         }
+        @include sm {
+           height: 50px;
+        }
     }
 }
