@@ -115,9 +115,11 @@
     }
 
     .searchBar {
-        width: 100%;
+        width: 70%;
         height: 60px;
+        margin-left: 15rem;
         background-color: white;
+        border-radius: 20px;
         position: absolute;
         top: 60px;
         animation: mobileMenu 0.3s ease forwards;

@@ -7,7 +7,8 @@ const SwitchTabs = ({ data, onTabChange }) => {
     const [left, setLeft] = useState(0);
 
     const activeTab = (tab, index) => {
-        setLeft(index * 100);
+         setLeft(index * 100)
+
         setTimeout(() => {
             setSelectedTab(index);
         }, 300);
@@ -28,7 +29,7 @@ const SwitchTabs = ({ data, onTabChange }) => {
                         {tab}
                     </span>
                 ))}
-                <span className="movingBg" style={{ left }} />
+                <span  className="movingBg" style={{left }} />
             </div>
         </div>
     );

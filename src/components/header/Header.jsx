@@ -69,7 +69,7 @@ const Header = () => {
         }
         setMobileMenu(false);
     };
-
+    // 
     return (
         <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
             <ContentWrapper>
@@ -97,6 +97,7 @@ const Header = () => {
                         <HiOutlineSearch onClick={openSearch} />
                     </li>
                 </ul>
+                
 
                 <div className="mobileMenuItems">
                     <HiOutlineSearch onClick={openSearch} />

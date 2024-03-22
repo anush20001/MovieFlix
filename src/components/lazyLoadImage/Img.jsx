@@ -10,7 +10,10 @@ const Img = ({ src, className }) => {
             effect="blur"
             src={src}
         />
+        
+
     );
+
 };
 
 export default Img;
